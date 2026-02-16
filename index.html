@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>My Portfolio</title>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md">
+        <div class="max-w-8xl mx-auto px-4 py-4 flex justify-between bg-red-600">
+            <h1 class="text-xl font-bold text-blue-600">MyPortfolio</h1>
+            <ul class="flex gap-6">
+                <li><a href="#about" class="hover:text-blue-600">About</a></li>
+                <li><a href="#services" class="hover:text-blue-600">Services</a></li>
+                <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="text-center py-20 bg-blue-600 text-white bg-blue-400">
+        <h2 class="text-4xl font-bold mb-4">Hi, I'm a Web Developer</h2>
+        <p class="mb-6">HTML, CSS, Tailwind CSS & Basic JavaScript</p>
+        <a href="#contact" class="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-200">
+            Contact Me
+        </a>
+        <p class="mt-4 text-lg">
+            📞 Phone: <span class="font-semibold">0323-8778543</span><br>
+            📞 Phone: <span class="font-semibold">0317-7519212</span><br>
+            📧 Email: <span class="font-semibold">raisahab2773@gmail.com</span>
+        </p>
+
+    </section>
+
+    <!-- About -->
+    <section id="about" class="max-w-8xl mx-auto px-4 py-16 bg-yellow-400">
+        <h2 class="text-3xl font-bold mb-6 text-center">About Me</h2>
+        <p class="text-center max-w-3xl mx-auto">
+            Main aik beginner web developer hoon jo clean aur responsive websites
+            banata hai. Mera focus simple aur user-friendly design hota hai.
+        </p>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="bg-white py-16">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-10">My Services</h2>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-6 shadow rounded text-center">
+                    <h3 class="text-xl font-semibold mb-2">Website Design</h3>
+                    <p>Simple aur modern website design</p>
+                </div>
+
+                <div class="p-6 shadow rounded text-center">
+                    <h3 class="text-xl font-semibold mb-2">Landing Pages</h3>
+                    <p>Business aur portfolio landing pages</p>
+                </div>
+
+                <div class="p-6 shadow rounded text-center">
+                    <h3 class="text-xl font-semibold mb-2">Responsive Layout</h3>
+                    <p>Mobile, tablet aur desktop friendly design</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+   <section id="contact" class="max-w-6xl mx-auto px-4 py-16">
+
+<form action="https://formspree.io/f/abcdxyz" method="POST"
+class="max-w-xl mx-auto bg-white p-8 shadow rounded">
+
+  <input type="text" name="name" placeholder="Your Name"
+  class="w-full border px-4 py-2 rounded mb-4" required>
+
+  <input type="email" name="email" placeholder="Your Email"
+  class="w-full border px-4 py-2 rounded mb-4" required>
+
+  <textarea name="message" rows="4" placeholder="Your Message"
+  class="w-full border px-4 py-2 rounded mb-4" required></textarea>
+
+  <!-- Send Button -->
+  <button type="submit"
+  class="w-full bg-blue-600 text-white py-3 rounded mb-4 hover:bg-blue-700">
+    Send Message
+  </button>
+
+  <!-- WhatsApp Button 1 -->
+  <a href="https://wa.me/923238778543" target="_blank"
+  class="block w-full text-center bg-green-500 text-white py-3 rounded mb-3 hover:bg-green-600">
+    💬 Chat on WhatsApp
+  </a>
+
+  <!-- WhatsApp Button 2 -->
+  <a href="https://wa.me/923238778543" target="_blank"
+  class="block w-full text-center bg-red-500 text-white py-3 rounded hover:bg-red-600">
+    💬 Chat on WhatsApp
+  </a>
+
+</form>
+
+</section>
+
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center py-4">
+        <footer class="bg-gray-800 text-white text-center py-6">
+            <p>📞 0323-8778543
+                📞 0317-7519212 | 📧 raisahab2773@gmail.com</p>
+            <p class="mt-2">© 2026 | My Portfolio</p>
+        </footer>
+
+</body>
+
+</html>
